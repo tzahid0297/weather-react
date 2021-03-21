@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("./mountains.jpeg");
+  background-size: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-wrapper {
+  width: 35rem;
+  margin: 15px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weatherapp {
+  padding: 20px;
+  background-color: #e4ca83;
+  border: 4px solid black;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.form-row {
+  width: 30rem;
+}
+
+.Sourcecode small {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Date #date-time {
+  font-size: 14px;
+  display: inline;
+  margin: 15px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Maindescription .icon img {
+  position: absolute;
+  bottom: 65%;
+  left: 40%;
 }

@@ -1,15 +1,25 @@
-import Weather from "./Weather";
+
+import Search from "./Search";
+import Date from "./Date";
+import Maindescription from "./Maindescription";
+import Otherdata from "./Otherdata";
+import Forecast from "./Forecast";
+import Sourcecode from "./Sourcecode";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          Hello World Tania!!!
-        </h1>
-        <Weather city="Tokyo"/>
-      </header>
+      <div className="weather-wrapper">
+        <div className="weatherapp">
+          <Search />
+          <Date />
+          <Maindescription />
+          <Otherdata />
+          <Forecast />
+        </div>
+        <Sourcecode />
+      </div>
     </div>
   );
 }

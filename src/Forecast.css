@@ -1,0 +1,15 @@
+.forecast-weather {
+  text-align: center;
+}
+
+.forecast-weather img {
+  display: block;
+  margin: 0 auto;
+}
+
+.forecast-temperature {
+  text-align: center;
+  color: blue;
+  font-size: 15px;
+  font-weight: 400;
+}
