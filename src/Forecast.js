@@ -109,6 +109,7 @@ let fahTempInput = document.querySelector("#fah-link");
 fahTempInput.addEventListener("click", fahTemp);
 let celTempInput = document.querySelector("#cel-link");
 celTempInput.addEventListener("click", convertCelsius);
+
   return (
     <div className="Forecast">
       <div className="row forecast-weather" id="forecast"></div>
