@@ -1,13 +1,14 @@
-.forecast-weather {
+.Forecast {
   text-align: center;
 }
 
-.forecast-weather img {
+/* .ForecastIcon {
   display: block;
   margin: 0 auto;
-}
+  size: 40;
+} */
 
-.forecast-temperature {
+.Forecast-temperatures {
   text-align: center;
   color: blue;
   font-size: 15px;

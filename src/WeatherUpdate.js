@@ -12,7 +12,7 @@ export default function WeatherUpdate(props) {
       <div className="row">
         <div className="col">
           <div className="icon">
-            <WeatherIcon code={props.data.icon} /> 
+            <WeatherIcon code={props.data.icon} size={100} /> 
           </div>
           <div className="heading">
             <h1 id="city">{props.data.city}</h1>
