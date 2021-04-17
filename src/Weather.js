@@ -3,7 +3,7 @@ import axios from "axios";
 import './App.css';
 
 export default function Weather(props){
-   const [weatherInfo, setWeatherInfo] = useState({ ready: false });
+  const [weatherInfo, setWeatherInfo] = useState({ ready: false });
   function showResponse(response) {
     setWeatherInfo({
       ready: true, 
@@ -17,7 +17,7 @@ export default function Weather(props){
     });
    } 
 
-   if (weatherInfo.ready) {return (
+  if (weatherInfo.ready) {return (
     <div className="Weather">
       <form id="search-form">
         <div className="form-row mx-auto pb-2">
