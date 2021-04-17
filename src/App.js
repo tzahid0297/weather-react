@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="weather-wrapper">
         <div className="weatherapp">
-          <Weather />
+          <Weather defaultCity="Beijing" />
         </div>
         <Sourcecode />
       </div>
