@@ -34,7 +34,7 @@ export default function WeatherUpdate(props) {
           </p>
           <p>
              Wind:{" "}
-            <span id="windspeed">{props.data.wind}</span>km/h
+            <span id="windspeed">{Math.round(props.data.wind)}</span>km/h
           </p>
         </div>
       </div>
