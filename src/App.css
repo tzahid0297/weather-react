@@ -102,6 +102,7 @@ body {
   margin: 10px 30px;
   padding: 5px 0;
   border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 255, 0.2);
   background: radial-gradient(
     circle at 10% 20%,
     rgb(253, 239, 132) 0%,
