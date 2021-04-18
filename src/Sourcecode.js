@@ -9,9 +9,17 @@ export default function Sourcecode() {
           target="_blank"
           rel="noreferrer"
         >
-          Open-source code
+          Open-sourced on GitHub
         </a>
-        , by Tania Zahid
+        {" "}and{" "}
+        <a
+          href="https://romantic-booth-0bf03d.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          hosted on Netlify
+        </a>
+        {" "}by Tania Zahid
       </small>
     </div>
   );
