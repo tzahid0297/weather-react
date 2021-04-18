@@ -1,42 +1,44 @@
 body {
   background-image: url("./mountains.jpeg");
   background-size: 100%;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
-
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
-.weather-wrapper {
+.App .weather-wrapper {
   width: 38rem;
   margin: 15px auto;
 }
 
-.weatherapp {
+.App .weatherapp {
   padding: 20px;
   background-color: #e4ca83;
   border: 4px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
-.form-row {
+.Weather .form-row {
   width: 30rem;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
 }
 
 .Sourcecode small {
   color: white;
 }
 
-.Date #date-time {
+.FormattedDate {
   font-size: 14px;
-  display: inline;
+  text-align: center;
+  display: inline-block;
   margin: 15px auto;
 }
 /* 
@@ -54,29 +56,29 @@ code {
   text-transform: capitalize;
 }
 
-.units {
-  position: relative;
-  top: -20px;
-  left: 42px;
-  font-size: 20px;
+.WeatherUpdate .temp-description {
+  margin: 25px auto;
 }
 
-.temp {
+.WeatherUpdate .otherData {
+  margin: 30px 100px;
+  text-align: center;
+  font-size: medium;
+}
+
+.WeatherTemperature .temp {
   position: relative;
   font-size: 1.5em;
   font-weight: 400;
   line-height: 1;
-  left: 35px;
+  left: 29px;
 }
 
-#temp-description {
-  margin: 25px auto;
-}
-
-.otherData {
-  margin-bottom: 30px;
-  text-align: center;
-  font-size: medium;
+.WeatherTemperature .units {
+  position: relative;
+  top: -20px;
+  left: 42px;
+  font-size: 20px;
 }
 
 /* .forecast-weather img {
@@ -94,13 +96,14 @@ code {
   text-align: center;
 }
 
-.WeatherIcon {
-  display: inline-block;
+.ForecastDay .ForecastDayIcon {
+  /* display: block;
   margin: 0 auto;
+  position: relative; */
+  text-align: center;
 }
 
-.Forecast-temperatures {
-  text-align: center;
+.ForecastDay .Forecast-temperatures {
   color: blue;
   font-size: 15px;
   font-weight: 400;

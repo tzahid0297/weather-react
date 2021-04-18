@@ -18,18 +18,10 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
    } 
   return (
-    <div>
-    {day}, {date} {month} - {hours}:{minutes}
+    <div classNamee="FormattedDate">
+      <em> 
+        {day}, {date} {month} - {hours}:{minutes}
+      </em> 
     </div>
   );
 }
-
-  // return (
-  //   <div className="Date">
-  //     <div className="row">
-  //       <em id="date-time">
-  //         <span></span>
-  //       </em>
-  //     </div>
-  //   </div>
-  // );

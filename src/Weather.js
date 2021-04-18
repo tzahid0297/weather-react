@@ -39,15 +39,14 @@ function handleCityChange(event) {
   if (weatherInfo.ready) {return (
     <div className="Weather">
       <form onSubmit={handleSubmit}>
-        <div className="form-row mx-auto pb-2">
-          <div className="col-5">
+        <div className="form-row">
+          <div className="col">
             <input
               type="location"
               className="form-control"
               placeholder="Enter location"
               autoFocus="on"
               onChange={handleCityChange}
-              id="search-text-input"
             />
           </div>
           <div className="col">

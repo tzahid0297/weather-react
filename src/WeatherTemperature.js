@@ -36,7 +36,7 @@ return (
 } else { 
     return (
     <div className="WeatherTemperature"> 
-    <span className="temp" id="temp">
+    <span className="temp">
         {Math.round(fahrenheit())}
     </span> 
     <span className="units">
