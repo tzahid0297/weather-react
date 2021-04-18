@@ -39,6 +39,7 @@ code {
 .FormattedDate {
   font-size: 15px;
   margin: 5px auto;
+  font-weight: bold;
 }
 /* 
 .Maindescription .icon img {
@@ -70,7 +71,7 @@ code {
 } */
 
 .WeatherUpdate .otherData {
-  margin: 25px 100px 15px;
+  margin: 25px 60px 0;
   text-align: center;
   font-size: medium;
 }
@@ -92,7 +93,8 @@ code {
 
 .Forecast {
   text-align: center;
-  margin: 10px 0;
+  margin: 20px 0 0 0;
+  /* margin: 10px 0;
   border: 2px solid black;
   padding: 10px 0;
   border-radius: 20px;
@@ -101,7 +103,7 @@ code {
     rgb(253, 239, 132) 0%,
     rgb(247, 198, 169) 54.2%,
     rgb(21, 186, 196) 100.3%
-  );
+  ); */
 }
 
 /* .WeatherIcon {
@@ -127,4 +129,22 @@ code {
   color: blue;
   font-size: 15px;
   font-weight: 400;
+}
+
+.ForecastDay .Day {
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+}
+
+.WeatherUpdate .mainData {
+  border: 2px solid black;
+  margin: 10px 30px;
+  padding: 5px 0;
+  border-radius: 20px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100.3%
+  );
 }

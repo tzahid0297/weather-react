@@ -9,6 +9,7 @@ export default function WeatherUpdate(props) {
     <div className="row">
     <FormattedDate date={props.data.date}/>
       </div>
+    <div className="mainData">
       <div className="row">
         <div className="col">
           <div className="icon">
@@ -39,6 +40,7 @@ export default function WeatherUpdate(props) {
           </p>
           </div> 
       </div>
-        </div>
+      </div>
+    </div>
     );
 }
