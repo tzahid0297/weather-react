@@ -39,29 +39,21 @@ function handleCityChange(event) {
   if (weatherInfo.ready) {
     return (
     <div className="Weather">
-      <form className="form-row" onSubmit={handleSubmit}>
-        <div>
-          <div className="col">
+      <form onSubmit={handleSubmit}>
+        <div className="row">
+          <div className="col-8">
             <input
               type="location"
-              className="form-control"
+              className="form-control search-input"
               placeholder="Enter location"
-              autoFocus="on"
+              // autoFocus="on"
               onChange={handleCityChange}
             />
           </div>
           <div className="col">
             <input type="submit" value="Search" className="btn btn-info" />
           </div>
-          {/* <div className="col-4">
-            <input
-              type="submit"
-              value="Current Location"
-              className="btn btn-success"
-              id="current-location"
-            />
-          </div> */}
-        </div>
+        </div>  
       </form>
       <WeatherUpdate data={weatherInfo} />
       <Forecast coordinates={weatherInfo.coordinates}/>

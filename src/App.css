@@ -25,11 +25,16 @@ code {
   border-radius: 15px;
 }
 
-.Weather .form-row {
+.Weather form {
   /* width: 30rem; */
-  margin: 0 auto;
-  padding: 10px 0 10px 0;
+  margin: 10px 40px;
   display: block;
+}
+
+.Weather .search-input {
+  /* display: inline-block; */
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
 }
 
 .Sourcecode small {
@@ -41,12 +46,6 @@ code {
   margin: 5px auto;
   font-weight: bold;
 }
-/* 
-.Maindescription .icon img {
-  position: absolute;
-  bottom: 65%;
-  left: 40%;
-} */
 
 .WeatherUpdate .heading {
   text-align: center;
@@ -118,7 +117,7 @@ code {
 
 .WeatherUpdate .icon {
   text-align: center;
-  padding: 10px;
+  padding: 15px 0 10px;
 }
 
 /* .ForecastDay .ForecastDayIcon {
@@ -132,6 +131,7 @@ code {
 }
 
 .ForecastDay .Day {
+  margin: 0 0 5px 0;
   font-weight: bold;
   font-family: "Mulish", sans-serif;
 }
