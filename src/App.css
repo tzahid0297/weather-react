@@ -20,15 +20,11 @@ body {
 }
 
 .Weather .form-control {
-  /* width: 20rem; */
   margin: 10px 38px;
-  /* display: block; */
 }
 
 .Weather .btn {
-  /* width: 30rem; */
   margin: 10px 20px;
-  /* display: block; */
 }
 
 .Sourcecode small {
