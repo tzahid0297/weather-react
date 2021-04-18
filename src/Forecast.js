@@ -13,6 +13,7 @@ export default function Forecast(props) {
   }, [props.coordinates]);
 
   function showResponse(response) {
+    console.log(response.data);
     setForecastData(response.data.daily);
     setLoaded(true); 
    }
@@ -21,7 +22,7 @@ export default function Forecast(props) {
     let apiKey = "b459960b012062ea973e4c9dcf5e8658";
     let longitude = props.coordinates.lon;
     let latitude =  props.coordinates.lat;
-    let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metrics`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(showResponse);  
   }
