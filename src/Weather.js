@@ -53,14 +53,14 @@ function handleCityChange(event) {
           <div className="col">
             <input type="submit" value="Search" className="btn btn-info" />
           </div>
-          <div className="col-4">
+          {/* <div className="col-4">
             <input
               type="submit"
               value="Current Location"
               className="btn btn-success"
               id="current-location"
             />
-          </div>
+          </div> */}
         </div>
       </form>
       <WeatherUpdate data={weatherInfo} />
