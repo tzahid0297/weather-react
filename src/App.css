@@ -15,7 +15,7 @@ code {
 }
 
 .weather-wrapper {
-  width: 35rem;
+  width: 38rem;
   margin: 15px auto;
 }
 
@@ -39,17 +39,17 @@ code {
   display: inline;
   margin: 15px auto;
 }
-
+/* 
 .Maindescription .icon img {
   position: absolute;
   bottom: 65%;
   left: 40%;
-}
+} */
 
-.heading {
-  position: relative;
+.WeatherUpdate .heading {
+  /* position: relative; */
   text-align: center;
-  margin: 90px auto 45px auto;
+  /* margin: 90px auto 45px auto; */
   font-family: "Mulish", sans-serif;
   text-transform: capitalize;
 }
@@ -79,41 +79,25 @@ code {
   font-size: medium;
 }
 
-.forecast-weather {
-  text-align: center;
-}
-
-.forecast-weather img {
+/* .forecast-weather img {
   display: block;
   margin: 0 auto;
-}
+} */
 
-.forecast-temperature {
-  text-align: center;
-  color: blue;
-  font-size: 15px;
-  font-weight: 400;
-}
-
-small {
-  color: white;
-}
-
-img {
+/* img {
   margin: 0 auto;
   display: inline-block;
   width: 15px;
-}
+} */
 
 .Forecast {
   text-align: center;
 }
 
-/* .ForecastIcon {
-  display: block;
+.WeatherIcon {
+  display: inline-block;
   margin: 0 auto;
-  size: 40;
-} */
+}
 
 .Forecast-temperatures {
   text-align: center;
