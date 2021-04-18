@@ -6,7 +6,7 @@ export default function Sourcecode() {
     <div className="Sourcecode">
       <small>
         <a
-          href="https://github.com/tzahid0297/weather-app"
+          href="https://github.com/tzahid0297/weather-react"
           target="_blank"
           rel="noreferrer"
         >
