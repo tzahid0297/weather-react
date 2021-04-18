@@ -83,7 +83,11 @@ body {
 .ForecastDay .Forecast-temperatures {
   color: blue;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: bold;
+}
+
+.ForecastDay .Forecast-temperature-min {
+  opacity: 50%;
 }
 
 .ForecastDay .Day {
