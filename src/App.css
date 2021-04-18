@@ -16,9 +16,19 @@ body {
 }
 
 .Weather form {
+  width: 51rem;
+}
+
+.Weather .form-control {
+  /* width: 20rem; */
+  margin: 10px 38px;
+  /* display: block; */
+}
+
+.Weather .btn {
   /* width: 30rem; */
-  margin: 10px 40px;
-  display: block;
+  margin: 10px 20px;
+  /* display: block; */
 }
 
 .Sourcecode small {
@@ -27,7 +37,7 @@ body {
 
 .FormattedDate {
   font-size: 15px;
-  margin: 5px auto;
+  margin: 10px auto;
   font-weight: bold;
 }
 
@@ -81,7 +91,7 @@ body {
 }
 
 .ForecastDay .Day {
-  margin: 0 0 5px 0;
+  margin: 0 0 8px 0;
   font-weight: bold;
   font-family: "Mulish", sans-serif;
 }
