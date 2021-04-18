@@ -41,10 +41,10 @@ function handleCityChange(event) {
     <div className="Weather">
       <form onSubmit={handleSubmit}>
         <div className="row">
-          <div className="col-8">
+          <div className="col">
             <input
               type="location"
-              className="form-control search-input"
+              className="form-control"
               placeholder="Enter location"
               // autoFocus="on"
               onChange={handleCityChange}

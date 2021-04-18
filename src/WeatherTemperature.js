@@ -26,7 +26,7 @@ return (
     <span className="units">
         <a href="/" id="cel-link">
             °C
-        </a> |  {" "}
+        </a> | {" "}
          <a href="/" id="fah-link" onClick={fahrenheitConversion}>
              °F
         </a>
@@ -42,7 +42,7 @@ return (
     <span className="units">
         <a href="/" id="cel-link" onClick={celsiusConversion}>
             °C
-        </a> |
+        </a> | {" "}
             °F
     </span>
 </div>

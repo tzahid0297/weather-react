@@ -31,12 +31,6 @@ code {
   display: block;
 }
 
-.Weather .search-input {
-  /* display: inline-block; */
-  border-radius: 6px;
-  color: rgba(39, 33, 66, 0.4);
-}
-
 .Sourcecode small {
   color: white;
 }
@@ -52,22 +46,10 @@ code {
   font-family: "Mulish", sans-serif;
   text-transform: capitalize;
 }
-/* 
-.WeatherUpdate .city {
-  text-align: center;
-  font-family: "Mulish", sans-serif;
-  text-transform: capitalize;
-} */
 
 .WeatherUpdate .text-description {
   margin: 18px 0;
 }
-
-/* .WeatherUpdate .temperature {
-  text-align: center;
-  font-family: "Mulish", sans-serif;
-  text-transform: capitalize;
-} */
 
 .WeatherUpdate .otherData {
   margin: 25px 60px 0;
@@ -93,36 +75,12 @@ code {
 .Forecast {
   text-align: center;
   margin: 20px 0 0 0;
-  /* margin: 10px 0;
-  border: 2px solid black;
-  padding: 10px 0;
-  border-radius: 20px;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(253, 239, 132) 0%,
-    rgb(247, 198, 169) 54.2%,
-    rgb(21, 186, 196) 100.3%
-  ); */
 }
-
-/* .WeatherIcon {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-  position: absolute;
-  bottom: 65%;
-  left: 40%;
-} */
 
 .WeatherUpdate .icon {
   text-align: center;
   padding: 15px 0 10px;
 }
-
-/* .ForecastDay .ForecastDayIcon {
-  margin: 10px 0;
-} */
 
 .ForecastDay .Forecast-temperatures {
   color: blue;
