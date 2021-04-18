@@ -18,7 +18,7 @@ export default function WeatherUpdate(props) {
             <h1 className="city">{props.data.city}</h1>
             <p className="text-description">{props.data.description}</p>
             <div>
-              <h2>
+              <h2 className="temperature">
                 <WeatherTemperature celsius={props.data.temperature} /> 
               </h2>
             </div>

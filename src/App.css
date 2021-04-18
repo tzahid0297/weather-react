@@ -48,16 +48,26 @@ code {
 } */
 
 .WeatherUpdate .heading {
-  /* position: relative; */
   text-align: center;
-  /* margin: 90px auto 45px auto; */
   font-family: "Mulish", sans-serif;
   text-transform: capitalize;
 }
+/* 
+.WeatherUpdate .city {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  text-transform: capitalize;
+} */
 
-.WeatherUpdate .temp-description {
-  margin: 25px auto;
+.WeatherUpdate .text-description {
+  margin: 18px 0;
 }
+
+/* .WeatherUpdate .temperature {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  text-transform: capitalize;
+} */
 
 .WeatherUpdate .otherData {
   margin: 25px 100px;
