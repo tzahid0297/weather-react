@@ -26,18 +26,18 @@ export default function WeatherUpdate(props) {
         </div>
       </div>
       <div className="row otherData">
-        <div className="col">
+          <div className="col">
           <p>
              Humidity:{" "}
-            <span id="humidity">{props.data.humidity}</span>%
+            <span id="humidity">{props.data.humidity}</span>{" "}%
           </p>
           </div>
-        <div className="col"> 
+          <div className="col"> 
           <p>
              Wind:{" "}
-            <span id="windspeed">{Math.round(props.data.wind)}</span>km/h
+            <span id="windspeed">{Math.round(props.data.wind)}</span>{" "}km/h
           </p>
-        </div> 
+          </div> 
       </div>
         </div>
     );
