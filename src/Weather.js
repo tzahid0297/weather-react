@@ -36,10 +36,11 @@ function handleCityChange(event) {
  setCity(event.target.value); 
 }
 
-  if (weatherInfo.ready) {return (
+  if (weatherInfo.ready) {
+    return (
     <div className="Weather">
-      <form onSubmit={handleSubmit}>
-        <div className="form-row">
+      <form className="form-row" onSubmit={handleSubmit}>
+        <div>
           <div className="col">
             <input
               type="location"
